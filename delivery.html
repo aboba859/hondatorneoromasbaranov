@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Доставка и оплата — Honda Torneo | Авторазбор</title>
+    <meta name="description" content="Доставка запчастей Honda Torneo: СДЭК, ПЭК, Деловые линии. Оплата на карту и наложенный платёж." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header class="site-header" data-reveal>
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="На главную">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#dc2626" />
+                <stop offset="1" stop-color="#ef4444" />
+              </linearGradient>
+            </defs>
+            <rect x="3" y="3" width="18" height="18" rx="5" stroke="url(#g)" stroke-width="2" />
+            <path d="M8 12h8M12 8v8" stroke="url(#g)" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <span>Torneo Разбор</span>
+        </a>
+
+        <nav class="nav" aria-label="Основная навигация">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Меню">☰</button>
+          <ul id="nav-list">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="delivery.html" class="nav-active">Доставка</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+          <span class="sun">☀️</span>
+          <span class="moon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section page-head">
+        <div class="container">
+          <h1 class="page-title" data-reveal>Доставка и оплата</h1>
+          <p class="page-desc" data-reveal">Отправляем запчасти по всей России и в страны СНГ. Стоимость и сроки зависят от региона и веса.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="content-blocks">
+            <article class="card content-block" data-reveal>
+              <div class="icon">🚚</div>
+              <h2>Транспортные компании</h2>
+              <p>Работаем с СДЭК, ПЭК, Деловые линии, Боксберри и другими ТК. Отправка возможна в день заказа после подтверждения и оплаты. Трек-номер высылаем в тот же день.</p>
+              <ul class="checklist">
+                <li>СДЭК — до пункта выдачи и до двери</li>
+                <li>ПЭК — крупногабарит, двигатели, КПП</li>
+                <li>Деловые линии — по всей РФ и СНГ</li>
+              </ul>
+            </article>
+            <article class="card content-block" data-reveal>
+              <div class="icon">💳</div>
+              <h2>Оплата</h2>
+              <p>Оплата на карту (СБП или перевод). Для заказов с наложенным платежом — только там, где это поддерживает выбранная ТК (уточняйте при заказе).</p>
+              <ul class="checklist">
+                <li>Предоплата на карту — скидка на доставку</li>
+                <li>Наложенный платёж — где доступно</li>
+                <li>Гарантия проверки на все детали</li>
+              </ul>
+            </article>
+            <article class="card content-block" data-reveal>
+              <div class="icon">📦</div>
+              <h2>Упаковка</h2>
+              <p>Детали надёжно упаковываем: плёнка, картон, при необходимости деревянная обрешётка для тяжёлых узлов (ДВС, КПП, бамперы).</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section">
+        <div class="container cta-inner" data-reveal>
+          <h2>Уточнить стоимость доставки</h2>
+          <p>Напишите город и что нужно — рассчитаем срок и цену доставки.</p>
+          <a class="btn btn-primary" href="contact.html">Написать</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Авторазбор Honda Torneo</p>
+        <a href="#" class="to-top" aria-label="Наверх">↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

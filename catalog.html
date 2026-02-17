@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Каталог запчастей — Honda Torneo | Авторазбор</title>
+    <meta name="description" content="Каталог контрактных запчастей Honda Torneo: двигатель, кузов, ходовая, электрика, салон. Подбор по VIN." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header class="site-header" data-reveal>
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="На главную">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#dc2626" />
+                <stop offset="1" stop-color="#ef4444" />
+              </linearGradient>
+            </defs>
+            <rect x="3" y="3" width="18" height="18" rx="5" stroke="url(#g)" stroke-width="2" />
+            <path d="M8 12h8M12 8v8" stroke="url(#g)" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <span>Torneo Разбор</span>
+        </a>
+
+        <nav class="nav" aria-label="Основная навигация">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Меню">☰</button>
+          <ul id="nav-list">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html" class="nav-active">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+          <span class="sun">☀️</span>
+          <span class="moon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section page-head">
+        <div class="container">
+          <h1 class="page-title" data-reveal>Каталог запчастей Honda Torneo</h1>
+          <p class="page-desc" data-reveal>Контрактные детали с разборки. Подбор по VIN/Frame, фото и видео по запросу.</p>
+        </div>
+      </section>
+
+      <section class="section" id="categories">
+        <div class="container">
+          <h2 class="section-title" data-reveal>Категории</h2>
+          <div class="categories-filter">
+            <button class="filter-btn active" data-category="all">Все</button>
+            <button class="filter-btn" data-category="engine">Двигатель</button>
+            <button class="filter-btn" data-category="body">Кузов</button>
+            <button class="filter-btn" data-category="chassis">Ходовая</button>
+            <button class="filter-btn" data-category="electric">Электрика</button>
+            <button class="filter-btn" data-category="interior">Салон</button>
+          </div>
+
+          <div class="products-grid">
+            <article class="product-card card" data-reveal data-category="engine">
+              <div class="product-img-wrap">
+                <img src="images/engine-head-f20b-h22a.jpg" alt="Головка блока цилиндров Honda Torneo (F20B / H22A)" width="400" height="300" />
+                <span class="product-badge">В наличии</span>
+              </div>
+              <div class="product-body">
+                <h3>Головка блока цилиндров</h3>
+                <p>F20B / H22A. Состояние проверено, без трещин.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=гбц">Запросить</a>
+              </div>
+            </article>
+            <article class="product-card card" data-reveal data-category="engine">
+              <div class="product-img-wrap">
+                <img src="images/starter-torneo.jpg" alt="Стартер Honda Torneo" width="400" height="300" />
+              </div>
+              <div class="product-body">
+                <h3>Стартер</h3>
+                <p>Оригинал, б/у с проверкой. Подбор по двигателю.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=стартер">Запросить</a>
+              </div>
+            </article>
+            <article class="product-card card" data-reveal data-category="engine">
+              <div class="product-img-wrap">
+                <img src="images/alternator-torneo.jpg" alt="Генератор Honda Torneo" width="400" height="300" />
+                <span class="product-badge">Популярное</span>
+              </div>
+              <div class="product-body">
+                <h3>Генератор</h3>
+                <p>90А / 100А. Проверка на стенде, гарантия.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=генератор">Запросить</a>
+              </div>
+            </article>
+            <article class="product-card card" data-reveal data-category="body">
+              <div class="product-img-wrap">
+                <img src="images/bumper-front-cf4-cl1.jpg" alt="Передний бампер Honda Torneo CF4/CL1" width="400" height="300" />
+              </div>
+              <div class="product-body">
+                <h3>Бампер передний</h3>
+                <p>CF4/CL1. Цвета в наличии — уточняйте. Без трещин.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=бампер">Запросить</a>
+              </div>
+            </article>
+            <article class="product-card card" data-reveal data-category="body">
+              <div class="product-img-wrap">
+                <img src="images/headlight-front-torneo.jpg" alt="Фара передняя Honda Torneo" width="400" height="300" />
+              </div>
+              <div class="product-body">
+                <h3>Фара передняя</h3>
+                <p>Левый/правый. Оригинал, без сколов, линза в норме.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=фара">Запросить</a>
+              </div>
+            </article>
+            <article class="product-card card" data-reveal data-category="body">
+              <div class="product-img-wrap">
+                <img src="images/fender-front-torneo.jpg" alt="Крыло переднее Honda Torneo" width="400" height="300" />
+              </div>
+              <div class="product-body">
+                <h3>Крыло переднее</h3>
+                <p>Лев/прав. Оригинал, под цвет кузова или грунт.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=крыло">Запросить</a>
+              </div>
+            </article>
+            <article class="product-card card" data-reveal data-category="chassis">
+              <div class="product-img-wrap">
+                <img src="images/stabilizer-links-torneo.jpg" alt="Стойки стабилизатора Honda Torneo" width="400" height="300" />
+              </div>
+              <div class="product-body">
+                <h3>Стойки стабилизатора</h3>
+                <p>Перед/зад. Оригинал или аналог, пара.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=стойки">Запросить</a>
+              </div>
+            </article>
+            <article class="product-card card" data-reveal data-category="chassis">
+              <div class="product-img-wrap">
+                <img src="images/control-arm-front-lower.jpg" alt="Рычаг передний нижний Honda Torneo" width="400" height="300" />
+              </div>
+              <div class="product-body">
+                <h3>Рычаг передний нижний</h3>
+                <p>Лев/прав. Без люфтов, шаровые проверены.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=рычаг">Запросить</a>
+              </div>
+            </article>
+            <article class="product-card card" data-reveal data-category="chassis">
+              <div class="product-img-wrap">
+                <img src="images/gearbox-torneo.jpg" alt="КПП / АКПП Honda Torneo" width="400" height="300" />
+                <span class="product-badge">В наличии</span>
+              </div>
+              <div class="product-body">
+                <h3>КПП / АКПП</h3>
+                <p>МКПП и автомат. Подбор по VIN, проверка.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=кпп">Запросить</a>
+              </div>
+            </article>
+            <article class="product-card card" data-reveal data-category="electric">
+              <div class="product-img-wrap">
+                <img src="images/ecu-torneo.jpg" alt="ЭБУ Honda Torneo" width="400" height="300" />
+              </div>
+              <div class="product-body">
+                <h3>ЭБУ (мозги)</h3>
+                <p>Под ваш двигатель и год. Номера уточняйте.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=эбу">Запросить</a>
+              </div>
+            </article>
+            <article class="product-card card" data-reveal data-category="interior">
+              <div class="product-img-wrap">
+                <img src="images/dashboard-cluster-torneo.jpg" alt="Панель приборов Honda Torneo" width="400" height="300" />
+              </div>
+              <div class="product-body">
+                <h3>Панель приборов</h3>
+                <p>Тачка, спидометр. Рабочая, без сколов.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=панель">Запросить</a>
+              </div>
+            </article>
+            <article class="product-card card" data-reveal data-category="interior">
+              <div class="product-img-wrap">
+                <img src="images/front-seat-torneo.jpg" alt="Сиденье переднее Honda Torneo" width="400" height="300" />
+              </div>
+              <div class="product-body">
+                <h3>Сиденье переднее</h3>
+                <p>Лев/прав, полный комплект. Ткань/кожа.</p>
+                <a class="btn btn-primary btn-sm" href="contact.html?part=сиденье">Запросить</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section">
+        <div class="container cta-inner" data-reveal>
+          <h2>Не нашли нужную деталь?</h2>
+          <p>Напишите VIN или Frame — подберём запчасть и отправим фото.</p>
+          <a class="btn btn-primary" href="contact.html">Написать нам</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Авторазбор Honda Torneo</p>
+        <a href="#" class="to-top" aria-label="Наверх">↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      (function filterProducts() {
+        const btns = document.querySelectorAll('.filter-btn');
+        const cards = document.querySelectorAll('.product-card');
+        if (!btns.length || !cards.length) return;
+        btns.forEach(btn => {
+          btn.addEventListener('click', function() {
+            btns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            const cat = this.getAttribute('data-category');
+            cards.forEach(card => {
+              const cardCat = card.getAttribute('data-category');
+              card.style.display = (cat === 'all' || cardCat === cat) ? '' : 'none';
+            });
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
